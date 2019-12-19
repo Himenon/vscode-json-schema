@@ -1,0 +1,28 @@
+{
+  "title": "JSON Schema for sample.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "sampleBlock": {
+      "properties": {
+        "stringProp": {
+          "type": "string",
+          "description": "this property is string",
+          "anyOf": [
+            {
+              "enum": ["sample 1", "sample 2", "sample 3"]
+            }
+          ]
+        },
+        "numberProp": {
+          "type": "number",
+          "description": "this property is string"
+        },
+        "booleanProp": {
+          "type": "boolean",
+          "description": "this property is boolean"
+        }
+      }
+    }
+  }
+}
