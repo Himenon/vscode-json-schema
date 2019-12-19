@@ -1,5 +1,11 @@
 # vscode-json-schema
 
+## DEMO
+
+![demo](./demo.gif)
+
+## Using
+
 * Sample of https://code.visualstudio.com/docs/languages/json
 
 ```json

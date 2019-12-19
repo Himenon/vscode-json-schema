@@ -1,7 +1,7 @@
 {
   "sampleBlock": {
     "booleanProp": true,
-    "numberProp": 0,
-    "stringProp": "sample 1"
+    "numberProp": 100,
+    "stringProp": "sample 2"
   }
 }
